@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sorteio</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="jumbotron text-center py-5">
+            <h1 class="display-4">Regras do Sorteio</h1>
+            
+            <p class="lead">Serão sorteados 5 alunos. Destes, ganha quem tiver a maior média de notas.</p>
+            <!-- <hr class="my-3"> -->
+            <p class="lead">Se houver empate, um novo sorteio escolherá quem será o vencedor entre os que tiveram médias iguais</p>
+            <button type="button" class="btn btn-primary btn-lg disabled" aria-disabled="true" id="btn-init" disabled>Realizar Sorteio</button>
+        </div>
+        
+        <main class="row">
+            <div class="col-lg-6 tables-container" > <!--style="max-height: 50vh; overflow: auto;"-->
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>n1</th>
+                            <th>n2</th>
+                            <th>n3</th>
+                            <th>n4</th>
+                            <th>média</th>
+                        </tr>
+                    </thead>
+                    <tbody id="content-students">
+                        <tr>
+                            <td>Daniel</td>
+                            <td>5</td>
+                            <td>8</td>
+                            <td>10</td>
+                            <td>9</td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <td>Daniel</td>
+                            <td>5</td>
+                            <td>8</td>
+                            <td>10</td>
+                            <td>9</td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <td>Daniel</td>
+                            <td>5</td>
+                            <td>8</td>
+                            <td>10</td>
+                            <td>9</td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <td>Daniel</td>
+                            <td>5</td>
+                            <td>8</td>
+                            <td>10</td>
+                            <td>9</td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <td>Daniel</td>
+                            <td>5</td>
+                            <td>8</td>
+                            <td>10</td>
+                            <td>9</td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <td>Daniel</td>
+                            <td>5</td>
+                            <td>8</td>
+                            <td>10</td>
+                            <td>9</td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <td>Daniel</td>
+                            <td>5</td>
+                            <td>8</td>
+                            <td>10</td>
+                            <td>9</td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <td>Daniel</td>
+                            <td>5</td>
+                            <td>8</td>
+                            <td>10</td>
+                            <td>9</td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <td>Daniel</td>
+                            <td>5</td>
+                            <td>8</td>
+                            <td>10</td>
+                            <td>9</td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <td>Daniel</td>
+                            <td>5</td>
+                            <td>8</td>
+                            <td>10</td>
+                            <td>9</td>
+                            <td>0</td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="col-lg-6">
+                
+                <div id="results">
+                    <h2>Resultado do sorteio</h2>
+                    <ul class="list-group">
+                        <!-- <li class="list-group-item">Cras justo odio</li>
+                        <li class="list-group-item">Dapibus ac facilisis in</li>
+                        <li class="list-group-item">Morbi leo risus</li>
+                        <li class="list-group-item">Porta ac consectetur ac</li>
+                        <li class="list-group-item">Vestibulum at eros</li> -->
+                    </ul>
+
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

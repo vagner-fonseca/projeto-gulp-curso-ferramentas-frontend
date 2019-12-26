@@ -1,0 +1,7 @@
+Qual o problema desse arquivo?
+Um código Javascript que faz tudo. 
+
+Vamos separar em modulos. Arquivos js separados
+
+Qual o problema com essa abordagem? funcoes no escopo global.
+
